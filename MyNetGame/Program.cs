@@ -18,6 +18,10 @@ builder.Services.AddControllersWithViews();
 //의존성 주입 추가
 builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IUserAddRepository, UserAddRepository>();
+builder.Services.AddTransient<IUserLoginRepository, UserLoginRepository>();
+builder.Services.AddTransient<IUserInfoRepository, UserInfoRepository>();
+builder.Services.AddTransient<IUserLevelupRepository, UserLevelupRepository>();
+
 
 var app = builder.Build();
 

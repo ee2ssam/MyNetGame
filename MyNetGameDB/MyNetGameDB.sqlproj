@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{1da5a250-89b2-40d3-a7bf-5648483517f3}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -58,11 +58,18 @@
     <Folder Include="Properties" />
     <Folder Include="Table" />
     <Folder Include="Table\dbo" />
+    <Folder Include="Programs" />
+    <Folder Include="Programs\dbo" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\dbo\userTbl.sql" />
+    <Build Include="Programs\dbo\usp_AddUser.sql" />
+    <Build Include="Programs\dbo\usp_Login.sql" />
+    <Build Include="Programs\dbo\usp_UserInfo.sql" />
+    <Build Include="Programs\dbo\usp_Levelup.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MyNetGameDB_local.publish.publish.xml" />
+    <None Include="MyNetGameDB_Beta.publish.publish.xml" />
   </ItemGroup>
 </Project>

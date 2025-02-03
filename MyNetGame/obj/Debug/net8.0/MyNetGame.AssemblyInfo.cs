@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyNetGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b46196dee1d600d062e7891b395d4f48284d9c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18a263922ed105a8fe48175a5baaa640885785f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyNetGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyNetGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

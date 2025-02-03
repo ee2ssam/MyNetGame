@@ -51,7 +51,7 @@ namespace MyNetGame.Component
     }
 
     /// <summary>
-    /// Web-Api 구현
+    /// 유저 생성 Web-Api 구현
     /// </summary>
     [Route("api/[controller]")]
     public class UserAddServicesController : ControllerBase
